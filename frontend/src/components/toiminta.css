@@ -1,0 +1,51 @@
+.toiminta {
+  display: flex;
+
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#toimintaOtsikko {
+  text-align: start;
+  width: auto;
+}
+.kohde {
+  width: 60%;
+}
+
+@media (max-width: 1200px) {
+  #toimintaOtsikko {
+    text-align: start;
+    width: auto;
+  }
+}
+
+/* For screens narrower than or equal to 992px */
+@media (max-width: 992px) {
+  #toimintaOtsikko {
+    text-align: start;
+    width: auto;
+  }
+}
+
+/* For screens narrower than or equal to 768px */
+@media (max-width: 768px) {
+  #toimintaOtsikko {
+    text-align: center;
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 450px) {
+  #toimintaOtsikko {
+    text-align: center;
+    width: auto;
+    font-size: 30px;
+  }
+  .info {
+    align-items: center;
+  }
+}

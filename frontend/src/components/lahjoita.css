@@ -1,0 +1,45 @@
+.lahjoita {
+  width: 100%;
+  padding-top: 10vh;
+  height: auto;
+  text-transform: uppercase;
+  display: flex;
+}
+.vasenPuoli,
+.oikeaPuoli {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.MPKuva {
+  height: 300px;
+}
+@media (min-width: 1200px) {
+  .otsikko {
+    font-size: 60px;
+  }
+}
+
+/* For screens narrower than or equal to 992px */
+@media (max-width: 992px) {
+  .otsikko {
+    font-size: 30px;
+  }
+}
+
+/* For screens narrower than or equal to 768px */
+@media (max-width: 768px) {
+  .lahjoita {
+    display: flex;
+    flex-direction: column;
+  }
+  .otsikko {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 450px) {
+}

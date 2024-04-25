@@ -17,7 +17,7 @@ const Oikea = () => {
     <div className="oikeaContainer">
       <img
         className="picture"
-        src="../../public/images/kirppis.jpeg"
+        src="/images/kirppis.jpeg"
         alt="kuva kirpputorista"
       />
       <a
