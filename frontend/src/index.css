@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@400&display=swap");
+
+:root {
+  font-family: "Saira Condensed", Inter, system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
+
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  font-family: "Saira Condensed", Inter, system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
+}
+body {
+  background-color: #f4efe7;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Ensures padding and borders are included in width/height */
+}

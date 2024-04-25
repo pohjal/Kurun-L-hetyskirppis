@@ -1,0 +1,69 @@
+.headerContainer {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 25px;
+  align-items: center;
+}
+
+.headerItem {
+  margin: 20px;
+}
+
+.headerButton {
+  margin: 20px;
+  height: 60px;
+  width: 120px;
+  border: none;
+  background-color: #e73539;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.links {
+  display: flex;
+  width: auto;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .headerContainer {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .headerItem,
+  .headerButton {
+    margin: 10px;
+  }
+
+  .headerButton {
+    width: 100%;
+    height: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .headerContainer {
+    height: auto; /* Allows the container to grow as needed */
+    padding: 10px; /* Adjusts padding for smaller spaces */
+    font-size: 14px; /* Reduces font size for better readability on small screens */
+  }
+
+  .headerItem,
+  .headerButton {
+    margin: 8px; /* Reduces margin to save space */
+  }
+
+  .headerButton {
+    width: 100%; /* Expands the button to full width for easier touch */
+    height: 30px; /* Adjusts the button height for better tap-ability */
+    font-size: 10px; /* Reduces font size for better readability on small screens */
+  }
+
+  .links {
+    padding: 5px 0; /* Adds padding for separation between links */
+  }
+}

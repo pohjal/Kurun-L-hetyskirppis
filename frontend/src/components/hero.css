@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@400;700&display=swap");
+
+.hero {
+  display: flex;
+  height: 80vh;
+  width: 100vw;
+  flex: 1;
+}
+.oikeaContainer,
+.vasenContainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.vasenContainer {
+  margin-left: 100px;
+}
+.oikeaContainer {
+  margin-top: 25px;
+}
+
+.otsikko {
+  font-size: 60px;
+  width: 450px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.red {
+  color: #e73539;
+}
+
+.bodyText {
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+#oikea {
+  width: 400px;
+  padding-top: 20px;
+  text-align: center;
+  text-decoration: none; /* Removes underline */
+  color: #333; /* Sets the text color to a dark grey, you can customize this */
+}
+.picture {
+  width: 400px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+/* Media Queries */
+@media (max-width: 992px) {
+  .hero {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .vasenContainer {
+    margin-left: 50px; /* Reduced margin for smaller desktops */
+  }
+
+  .otsikko {
+    font-size: 40px; /* Smaller font size for smaller desktops */
+    width: 100%; /* Full width */
+  }
+
+  #oikea,
+  .picture {
+    width: 100%; /* Full width */
+  }
+
+  .bodyText {
+    font-size: 18px; /* Slightly smaller font size */
+  }
+}
+
+@media (max-width: 768px) {
+  .vasenContainer {
+    margin-left: 20px; /* Reduced margin for tablets */
+  }
+
+  .otsikko {
+    font-size: 30px; /* Smaller font size for tablets */
+  }
+
+  .bodyText {
+    font-size: 16px; /* Smaller font size for better readability */
+  }
+}
+
+@media (max-width: 576px) {
+  .vasenContainer,
+  .oikeaContainer {
+    margin: 10px 0; /* Minimal margin for phones */
+  }
+
+  .otsikko {
+    font-size: 24px; /* Much smaller font size for phones */
+  }
+
+  .bodyText {
+    font-size: 14px; /* Small font size for phones */
+  }
+}
