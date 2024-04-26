@@ -1,14 +1,16 @@
 .lahjoita {
   width: 100%;
   padding-top: 10vh;
+  padding-bottom: 10vh;
   height: auto;
   text-transform: uppercase;
   display: flex;
+  justify-content: center;
 }
 .vasenPuoli,
 .oikeaPuoli {
   display: flex;
-  width: 100%;
+  margin: 50px;
   align-items: center;
   justify-content: center;
   text-align: center;

@@ -1,0 +1,24 @@
+.footer {
+  width: 100%;
+  display: flex;
+  height: auto;
+  background-color: #f4e5e5;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footerOikeateksti,
+.footerVasenteksti {
+  display: flex;
+  padding: 5vh;
+}
+
+.footerOikeateksti {
+  flex-direction: column;
+}
+@media (max-width: 750px) {
+  .footer {
+    flex-direction: column;
+    padding: 2vh;
+  }
+}

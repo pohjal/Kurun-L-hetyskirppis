@@ -4,6 +4,7 @@ import Hero from "./components/hero";
 import Info from "./components/info";
 import Toiminta from "./components/toiminta";
 import Lahjoita from "./components/lahjoita";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Info />
       <Toiminta />
       <Lahjoita />
+      <Footer />
     </>
   );
 }
