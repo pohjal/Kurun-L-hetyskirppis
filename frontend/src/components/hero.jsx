@@ -3,7 +3,7 @@ import "./hero.css";
 const Vasen = () => {
   return (
     <div className="vasenContainer">
-      <h1 className="otsikko">
+      <h1 className="otsikko" id="heroOtsikko">
         TERVETULOA TEKEMÄÄN<span className="red"> LÖYTÖJÄ!</span>
       </h1>
       <p className="bodyText"> Virastotie 1-3, 34300</p>
@@ -37,7 +37,7 @@ const Oikea = () => {
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <div className="hero" id="hero">
       <Vasen />
       <Oikea />
     </div>

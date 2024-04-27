@@ -11,7 +11,7 @@ const Kohde = ({ otsikko, kuvaus }) => {
 
 const Toiminta = () => {
   return (
-    <div className="toiminta">
+    <div className="toiminta" id="toiminta">
       <h1 className="otsikko" id="toimintaOtsikko">
         Tuottojen <span className="red"> lahjoituskohteet</span>
       </h1>

@@ -7,28 +7,34 @@
   display: flex;
   justify-content: center;
 }
+
+#lahjoita .otsikko {
+  font-size: 60px;
+}
 .vasenPuoli,
 .oikeaPuoli {
   display: flex;
   margin: 50px;
   align-items: center;
   justify-content: center;
-  text-align: center;
 }
 
 .MPKuva {
   height: 300px;
 }
 @media (min-width: 1200px) {
-  .otsikko {
+  #lahjoita .otsikko {
     font-size: 60px;
   }
 }
 
 /* For screens narrower than or equal to 992px */
 @media (max-width: 992px) {
-  .otsikko {
-    font-size: 30px;
+  #lahjoita .otsikko {
+    font-size: 50px;
+  }
+  .vasenPuoli {
+    margin: 0px;
   }
 }
 

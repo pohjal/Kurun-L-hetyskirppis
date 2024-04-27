@@ -2,7 +2,7 @@ import "./lahjoita.css";
 
 const Lahjoita = () => {
   return (
-    <div className="lahjoita">
+    <div className="lahjoita" id="lahjoita">
       <div className="vasenPuoli">
         <h1 className="otsikko">
           Voit nyt myös <span className="red">tukea</span> toimintaa

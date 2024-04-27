@@ -2,7 +2,7 @@ import "./info.css";
 
 const Info = () => {
   return (
-    <div className="info">
+    <div className="info" id="info">
       <div>
         <h1 className="otsikko" id="infoOtsikko">
           Tietoa meistä

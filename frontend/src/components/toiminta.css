@@ -1,11 +1,15 @@
 .toiminta {
   display: flex;
-
+  width: auto;
   height: auto;
   flex-direction: column;
   align-items: center;
   text-align: center;
   text-transform: uppercase;
+}
+
+.kohde h1 {
+  font-size: 2.5em;
 }
 
 #toimintaOtsikko {
@@ -18,7 +22,6 @@
 
 @media (max-width: 1200px) {
   #toimintaOtsikko {
-    text-align: start;
     width: auto;
   }
 }
@@ -26,8 +29,14 @@
 /* For screens narrower than or equal to 992px */
 @media (max-width: 992px) {
   #toimintaOtsikko {
-    text-align: start;
     width: auto;
+  }
+  #toiminta p {
+    font-size: 20px;
+  }
+
+  .kohde h1 {
+    font-size: 2em;
   }
 }
 

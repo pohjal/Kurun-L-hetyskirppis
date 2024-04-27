@@ -19,6 +19,5 @@
 @media (max-width: 750px) {
   .footer {
     flex-direction: column;
-    padding: 2vh;
   }
 }
